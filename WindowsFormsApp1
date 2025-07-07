@@ -24,6 +24,8 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+
+            // 表示ラベルに反映します
             labelResult.Text = displayedNumber;
 
             // 数字ボタンにクリックイベントをまとめて登録
